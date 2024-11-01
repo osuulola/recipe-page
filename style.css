@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 100px;
+    color: hsl(30, 10%, 34%);
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width:35vw;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+img {
+    border-radius: 10px;
+}
+h2 { color:hsl(24, 5%, 18%)}
+.purple {
+    background-color: hsl(330, 100%, 98%);
+    padding:5px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+h2, h4{
+    font-family:'Young Serif';
+    font-weight: 400;
+}
+li {
+    padding-left: 10px;
+}
+ol, .purple li{
+    font-weight: 700;
+}
+ol li::marker{
+    color:hsl(14, 45%, 36%);
+    font-size: small;
+}
+li span {
+    font-weight: 400;
+}
+h4, .color{
+    color: hsl(14, 45%, 36%);
+}
+p, li {
+    font-size: small;
+}
+.span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: small;
+}
+.color {
+    font-weight: 700;
+}
